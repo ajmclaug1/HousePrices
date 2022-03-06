@@ -40,6 +40,7 @@ class RecordImport:
             print(e)
             print("""Please check the CSV filepath in RunDB is under the 
                     variable 'saveloc'""")
+            exit()
         comitted = self.no_rows
         errors = []
         rows_start_time = timeit.default_timer()

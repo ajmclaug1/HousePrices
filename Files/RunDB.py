@@ -11,7 +11,7 @@ columns = [1, 2, 3, 7, 8, 9, 10, 11, 12, 13]
 
 no_rows = 533200
 
-save_loc = r"C:\Users\ajmcl\Downloads\pp-complete.csv"
+save_loc = r"pp-complete.csv"
 
 with RecordImport(columns, config, no_rows, save_loc) as RI:
     RI.create_db()

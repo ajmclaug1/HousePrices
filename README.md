@@ -43,6 +43,8 @@ config = {'host': 'localhost', 'user': 'test',
 
 The other files can be left as they are.
 
+When you're ready to go, I'd recommend running RunDB.py from the command line, but feel free to use the IDE of your choice.
+
 
 Brief overview:
 
@@ -60,6 +62,7 @@ Python:
     pandas
     timeit
     mysql.connector (Install using mysql.connector-python)
+
 SQL:
 
 
